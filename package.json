@@ -1,0 +1,26 @@
+{
+  "name": "jest-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmdqls2257/jest-tdd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmdqls2257/jest-tdd/issues"
+  },
+  "homepage": "https://github.com/tmdqls2257/jest-tdd#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.1"
+  }
+}
