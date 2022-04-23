@@ -27,7 +27,13 @@ describe('ProductService', () => {
   it('should filter out only available items', async () => {
     // productService.fetchAvailableItems()를 실행하면 fetchItems에 있는 아이템중에서
     // available이 true인 값만 리턴
+
+    // Arrange, Given, 준비 단계
     const items = await productService.fetchAvailableItems()
+
+    // Act, When, 실행
+    // const items = await productService.fetchAvailableItems()
+
     expect(items.length).toBe(1)
     expect(items).toEqual([{ item: '🥛', available: true }])
   })
